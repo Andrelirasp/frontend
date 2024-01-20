@@ -15,12 +15,12 @@
 
 <body>
     <main class="flex">
-        <section class="cards align-center">
-            <section class="card-main align-center">
+        <section class="cards gap-flex align-center justify-center">
+            <section class="card-main flex align-center justify-center">
                 <img src="img/Carta_Counterspell.png" alt="Carta CounterSpell - Magic">
             </section>
-            <div class="hr"></div>
-            <section class="card-carousel align-center">
+            <div class="flex hr"></div>
+            <section class="card-carousel flex align-center justify-center">
                 <img src="img/carousel/Left/M.svg" alt="">
                 <img class="carousel-img" src="img/carousel/Card_Carroussel-1.png" alt="Card_Carroussel-1">
                 <img class="carousel-img" src="img/carousel/Card_Carroussel.png" alt="Card_Carroussel">
@@ -29,10 +29,10 @@
             </section>
         </section>
 
-        <section class="content">
-            <section class="info">
+        <section class="content gap-flex">
+            <section class="info gap-flex">
                 <section class="breadcrumb">
-                    <ol>
+                    <ol class="flex">
                         <li>Home</li>
                         <li>|</li>
                         <li>Magic: The Gathering</li>
@@ -44,9 +44,9 @@
                 </section>
 
                 <section class="edition flex justify-between">
-                    <div class="flex label gap-default">
+                    <div class="flex label gap-default justify-center">
                         <img src="img/C.svg" alt="">
-                        <strong class="bold">#045</strong> Dominaria Remastered
+                        <strong>#045</strong> Dominaria Remastered
                     </div>
                     <div class="flex sigla gap-default">
                         <strong>DMR</strong>
@@ -64,8 +64,8 @@
 
                         <div class="flex icons">
                             <img src="img/favorite.svg" alt="">
-                            <div class="options-div align-center">
-                                <img class="options-img" src="img/options.svg" alt="">
+                            <div class="options-div justify-center flex align-center">
+                                <img class="options-img flex justify-center" src="img/options.svg" alt="">
                             </div>
                         </div>
 
@@ -74,7 +74,7 @@
                 </section>
             </section>
 
-            <section class="list">
+            <section class="list gap-flex">
                 <div>
                     <div class="flex align-center gap-default">
                         <h1 class="margin-none">Lista de Compras</h1>
@@ -84,13 +84,17 @@
                 </div>
 
                 <div class="flex align-center div-group">
-                    <div class="group-list gap-default">
-                        <input class="quantity-input" type="number" name="" id="" min="1" value="1">
-                        <div class="config-div">
+                    <div class="flex gap-default">
+                        <div class="input-div">
+                            <img class="plus" src="img/plusIncrement.svg" alt="">
+                            <input class="quantity-input" type="number" name="quantity-input" min="1" value="1">
+                            <img class="minus" src="img/minus.svg" alt="">
+                        </div>
+                        <div class="config-div justify-center flex align-center">
                             <img class="config-img" src="img/config.svg" alt="">
                         </div>
                     </div>
-                    <button class="add-list gap-default" type="button">
+                    <button class="add-list justify-center gap-default flex align-center" type="button">
                         <img src="img/plus.svg" alt="">
                         Adicionar na lista
                     </button>
@@ -103,20 +107,20 @@
                     <a class="link-default" href="#">Ver Tudo</a>
                 </div>
 
-                <section class="card-details">
-                    <div class="gap-details">
-                        <div class="flex justify-between details-rows">
+                <section class="card-details gap-flex">
+                    <div class="gap-details gap-flex">
+                        <div class="flex justify-between details-rows align-center">
                             <span class="title">Cor</span>
                             <span class="card-color blue-color">Azul</span>
                         </div>
-                        <div class="flex justify-between details-rows">
+                        <div class="flex justify-between details-rows align-center">
                             <span class="title">Custo de Mana</span>
                             <div class="">
                                 <img src="img/mana.svg" alt="">
                                 <img src="img/mana.svg" alt="">
                             </div>
                         </div>
-                        <div class="flex justify-between details-rows">
+                        <div class="flex justify-between details-rows align-center">
                             <span class="title">Tipo</span>
                             <span class="text">Mágica Instantânea</span>
                         </div>
@@ -135,10 +139,10 @@
                                 <img class="" src="img/n.png" alt="">
                                 Tipo
                             </span>
-                            <div class="values flex gap-default">
-                                <div class="badge green"></div> R$ 6,28
-                                <div class="badge yellow"></div> R$ 9,39
-                                <div class="badge orange"></div> R$ 14,00
+                            <div class="values flex gap-default align-center">
+                                <div class="badge gap-flex green"></div> R$ 6,28
+                                <div class="badge gap-flex yellow"></div> R$ 9,39
+                                <div class="badge gap-flex orange"></div> R$ 14,00
                             </div>
                         </div>
                     </section>
